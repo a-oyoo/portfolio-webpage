@@ -1,0 +1,57 @@
+/* ---- structure ---- */
+header div, footer div {
+  background-color: #F5E2CC;
+  text-align: center;  
+}
+
+header div {
+  padding: 20px 10px 20px; 
+}
+
+footer div {
+  padding: 30px 10px 10px;
+}
+
+nav {
+  float: right;
+}
+
+.wrapper {
+  width: 70%;
+  margin: auto;
+}
+
+footer {
+  font-size: 12px;
+}
+
+
+/* ---- Typography  ---- */
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #31081F;  
+}
+
+h2, h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #000000;
+}
+
+p, li, nav {
+  font-family:Arial, Helvetica, sans-serif; 
+  color: #817F75;
+  line-height: 100%; 
+  font-style: normal;  
+}
+
+a {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;  
+}
+
+a:link { color: blue; }
+a:visited { color: red; }
+a:hover { color: lime; }
+a:active { color: yellow; }
+
+
