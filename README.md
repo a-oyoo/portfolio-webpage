@@ -1,2 +1,2 @@
 # portfolio-webpage
-my-first-time
+This is my personal website.
