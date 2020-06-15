@@ -1,28 +1,25 @@
 /* ---- structure ---- */
-header div, footer div {
+header, footer  {
   background-color: #F5E2CC;
   text-align: center;  
 }
 
-header div {
+header {
   padding: 20px 10px 20px; 
 }
 
-footer div {
+footer {
   padding: 30px 10px 10px;
+  font-size: 12px;
 }
 
 nav {
   float: right;
 }
 
-.wrapper {
+main {
   width: 70%;
   margin: auto;
-}
-
-footer {
-  font-size: 12px;
 }
 
 
