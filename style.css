@@ -20,8 +20,19 @@ nav {
 main {
   width: 70%;
   margin: auto;
+  /* background-image: url("images/constellation-for-background.png"); */
 }
 
+ main div {
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* p, li {
+  width: 70%;
+  margin: auto;
+} */
 
 /* ---- Typography  ---- */
 h1 {
