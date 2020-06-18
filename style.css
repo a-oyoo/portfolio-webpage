@@ -1,7 +1,6 @@
 /* ---- structure ---- */
 header, footer  {
   background-color: #F5E2CC;
-  text-align: center;  
 }
 
 header {
@@ -23,10 +22,14 @@ main {
   /* background-image: url("images/constellation-for-background.png"); */
 }
 
- main div {
+ .wrapper {
   width: 500px;
   margin: auto;
   padding: 20px;
+}
+
+.text-centered {
+  text-align: center;
 }
 
 /* p, li {
@@ -61,5 +64,8 @@ a:link { color: blue; }
 a:visited { color: red; }
 a:hover { color: lime; }
 a:active { color: yellow; }
+
+
+
 
 
