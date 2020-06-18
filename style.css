@@ -1,4 +1,10 @@
 /* ---- structure ---- */
+
+/* Set ALL HTML elements with border-box sizing */
+* {
+  box-sizing: border-box;
+}
+
 header, footer  {
   background-color: #F5E2CC;
 }
