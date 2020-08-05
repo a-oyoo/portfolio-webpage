@@ -1,76 +1,172 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Anthony Oyoo Odero | Software Engineer | Portfolio</title>
-    <link href="https://cdjns.cloudfare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
 
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anthony Oyoo Odero | Software Engineer | Portfolio</title>
+  <link href="https://cdjns.cloudfare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+    type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+</head>
 
-    <!-- header/nav -->
-    <header class="text-centered">
-      
-        <h1>Anthony Odero</h1>
-        <h2>Software Engineer</h2>
-        <nav><a href="#about-me">About Me</a>| <a href="#contact">Contact</a></nav> 
-      
-    </header>
+<body>
 
-    <!-- main -->
-    <main>
-      <div class="wrapper">
-        <img src="images/anthony-with-alpaca-side-by-side.jpg" width="500" alt="Anthony enjoying alpacas at UC Berkeley">
+  <!-- header/nav -->
+  <header>
+    <h1>Anthony Odero</h1>
+    <h2>Software Engineer</h2>
+    <nav>
+      <ul id="menu">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <!-- Introducing Anthony -->
-        <p class="text-centered">I am a Software Engineer in the San Francisco Bay Area.</p>
+  <!-- main -->
+  <main>
+    <article id="home">
+      <div class="group">
+        <div class="item-double">
+          <img src="images/anthony-headshot.jpg" width="500" alt="Anthony headshot with glasses and button up shirt">
+        </div>
+
       </div>
-        
+    </article>
+
+
+
+    <!-- Introducing Anthony -->
+    <article id="elevator pitch">
+      <div class="item">
+        <p class="text-centered">I am a Software Engineer in the San Francisco Bay Area. I am currently in undertaking
+          the FullStack Engineering Immersive Program at Thinkful.
+          With these skills I intend to develop software for Artificial Intelligence.</p>
+      </div>
       <hr>
+    </article>
 
-      <!-- A little about Anthony's interests -->
-      <article id="about-me">
-        <h2>About Me</h2>
+    <!-- A little about Anthony's interests -->
+    <article id="about-me">
 
-        <p> I started my career as a Environmental Scientist but began transitioning to web development while working as a QA Analyst in San Francisco. I was really excited to see features that I had tested make it into production code.</p>
+      <h2>About Me</h2>
+      </div>
+      <div class="group">
+        <div class="item">
 
-        <p>Becoming a software developer has always been my dream. I enjoy web products that make everyday activities simpler and more enjoyable and have always wondered how they are built. I am therefore really excited to have finally started learning how to develop as a student at Thinkful.</p>
 
-        <p>I can't wait to collaborate with other developers to build cool and exciting software that:</p> 
+          <p>Becoming a software developer has always been my dream. However with a PhD in Environmental Sciences, I
+            began my career modeling impacts of climate change adaptation on mitigation on the enviromnent.
+            Whereas this was also extremely fulfilling I developed a renewed interest in Software Engineering while
+            working
+            as a QA Analyst in San Francisco. I was really excited to see features that I had tested make it into
+            production code. I am really glad to have finally made the steps towards becoming a software developer.</p>
 
-        <ol>
-          <li>Helps people get things done efficiently</li>
-          <li>Helps people plan better </li>
-          <li>Helps people track progress</li>
-        </ol>
 
-        <p>When I am not coding I love to play basketball, bike and write scientific articles on climate change and sustainability.</p>
-      </article>
+          <p>I code in Python and SQL to process and analyse datasets from relational databases and JavaScript for web
+            development.</p>
+          <p> I studied in Europe but finished my post-graduate studies at UC Berkeley.</p>
+        </div>
 
-      <hr>
-        
-      <!-- Anthony's contact information -->
-      <article id="contact">
-        <h3>Contact:</h3>
 
-        <p>To find out the exciting projects I am working on check me out on:</p>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/anthony-oyoo-odero-82231770/" target="\_blank">LinkedIn</a></li><!-- Open Anthony's LinkedIn profile page in separate browser window-->
-          <li><a href="https://github.com/a-oyoo" target="\_blank">GitHub</a></li><!-- Open Anthony's GitHub profile page in separate browser window-->
-        </ul>
-        <p>Please <a href="mailto:anthonyoyoo@gmail.com" target="\_blank">email me</a> to get in touch!!</p><!-- Automatically open user's default email with the TO field already filled out and in separate browser window-->
-      </article>
-    </main>
-      
 
-    <!-- footer -->
-    <footer class="text-centered">
-      <p><i>© Anthony Oyoo Odero</i>.</p>
-    </footer>
+        <div class="item">
+          <p>When I am not coding I love to play basketball, bike, ride a motorcycle and write scientific articles on
+            climate change and
+            sustainability.</p>
+        </div>
 
-    <!-- link the javascript file -->
-    <script src="script.js"></script>
-  </body>
+      </div>
+
+    </article>
+
+    <hr>
+
+    <!-- About Anthony's work -->
+    <article id="anthonys-work">
+
+      <h2>Anthony's Work</h2>
+      </div>
+      <div class="group">
+        <div class="item">
+          <img src="images/planning-tool-icon.jpg" width="500" alt="Engineering caliper tool icon">
+          <a href="https://a-oyoo.github.io/pesatree/">PesaTree</a>
+          <p> A financial planning tool simulating risk and uncertainty</p>
+        </div>
+        <div class="item">
+          <img src="images/portfolio-icon.jpg" width="500" alt="Book on desk with portfolio written on it">
+          <a href="https://a-oyoo.github.io/portfolio-webpage/">First Portfolio</a>
+          <p> My first ever portfolio webpage</p>
+        </div>
+      </div>
+
+    </article>
+
+    <hr>
+
+    <!-- Anthony's services -->
+    <article id="anthonys-services">
+
+      <h2>Anthony's Services</h2>
+      </div>
+      <div class="group">
+        <div class="item">
+          <ul>
+            <li>I build predictive models to develop Artificial Intelligence</li>
+            <li>I design websites</li>
+            <li>I analyse big data</li>
+          </ul>
+        </div>
+      </div>
+
+    </article>
+
+    <hr>
+    <!-- Anthony's contact information -->
+    <article id="contact">
+
+      <h3>Contact:</h3>
+      </div>
+      <div class="group">
+        <div class="item">
+          <p>To find out the exciting projects I am working on check me out on:</p>
+        </div>
+        <div class="item">
+          <ul>
+            <li><a href="https://www.linkedin.com/in/anthony-oyoo-odero-82231770/" target="\_blank">LinkedIn</a></li>
+            <!-- Open Anthony's LinkedIn profile page in separate browser window-->
+            <li><a href="https://github.com/a-oyoo" target="\_blank">GitHub</a></li>
+            <!-- Open Anthony's GitHub profile page in separate browser window-->
+          </ul>
+        </div>
+      </div>
+
+
+      <form action="https://formspree.io/anthonyoyoo@gmail.com" method="post">
+        <label for="user-name">Full Name:</label>
+        <input id="user-name" type="text" name="name" autofocus="on" required>
+
+        <label for="email-address">Email:</label>
+        <input id="email-address" type="text" name="email" required>
+
+        <label for="form-message">Your message:</label>
+        <textarea name="message" id="form-message" cols="30" rows="10"></textarea>
+      </form>
+      </div>
+
+    </article>
+  </main>
+
+
+  <!-- footer -->
+  <footer class="text-centered">
+    <p><i>© Anthony Oyoo Odero</i>.</p>
+  </footer>
+
+  <!-- link the javascript file -->
+  <script src="script.js"></script>
+</body>
+
 </html>
