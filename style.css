@@ -45,6 +45,7 @@ header nav ul li:last-child a {
 
 ul {
   list-style: none;
+  padding-left: 0;
 }
 
 footer {
@@ -101,9 +102,6 @@ a {
   text-decoration: none;
 }
 
-a:hover{
-  text-decoration: underline;
-}
 
 .group {
   display: flex;
@@ -119,10 +117,15 @@ a:hover{
 
 /* Desktop */
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 600px) {
   header {
       display: flex;
       justify-content: space-between;
+      padding: 0 30px;
+  }
+
+  header h2, nav {
+    margin-top: 20px;
   }
   
   header, footer {
@@ -132,8 +135,17 @@ a:hover{
 
   .group {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-bottom: 100px;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+
   }
 }
 
